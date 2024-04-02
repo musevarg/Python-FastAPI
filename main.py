@@ -36,3 +36,9 @@ def read_item(item_id: int, q: Union[str, None] = None):
     quote = PydanticQuote.from_orm(getQuote(item_id))
     print(quote)
     return quote
+
+
+
+@app.post("/items/")
+async def create_item(quote: QuoteObject):
+    return quote
