@@ -1,6 +1,6 @@
 from typing import Union
 from fastapi import FastAPI
-from sqlalchemy import create_engine, text, Column, ForeignKey, Integer, String
+from sqlalchemy import create_engine, text, insert, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from pydantic import BaseModel
 from pydantic_sqlalchemy import sqlalchemy_to_pydantic
