@@ -9,3 +9,5 @@
 ![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/6eb03dc6-de5e-4f8f-9681-908cf864b8df)
 
 ![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/a92d95f0-c0e7-4ebe-b52e-af40ad186bc3)
+
+![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/23741d11-b25c-47db-85fa-c6bc34723702)
