@@ -15,3 +15,11 @@
 ![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/23741d11-b25c-47db-85fa-c6bc34723702)
 
 ![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/a92d95f0-c0e7-4ebe-b52e-af40ad186bc3)
+
+### `UNIT TESTS`
+
+Unit tests written using both the standard python unittest package and the FastAPI TestClient.
+
+All tests should pass.
+
+![image](https://github.com/musevarg/Python-FastAPI/assets/49337864/8f989944-35b6-450d-8510-96d10587c4c3)
