@@ -27,7 +27,7 @@ PydanticQuote = sqlalchemy_to_pydantic(QuoteObject)
 
 def getQuote(id):
     with engine.connect() as conn:
-        result = conn.execution_options(stream_results=True).execute(text("SELECT Id, Quote, Author FROM Quote WHERE Id = " + str(id)))
+        result = conn.execution_options(stream_results=True).execute(text("SELECT Id, Quote, Author FROM Quotes WHERE Id = " + str(id)))
         row = result.fetchone()
         return row
 
@@ -47,7 +47,7 @@ def read_root():
 
 
 @app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
+def read_item(item_id: int):
     quote = PydanticQuote.from_orm(getQuote(item_id))
     print(quote)
     return quote
